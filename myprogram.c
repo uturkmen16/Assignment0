@@ -14,6 +14,7 @@ int sum_of_even_numbers(int *array, int count)
 	for (int i=0;i<count;++i)
 	{
 		//TODO: only add even numbers, e.g., 4. Skip odd numbers, e.g., 3
+		if(array[i]%2 == 0)
 		sum += array[i];
 	}
 	return sum;
@@ -55,4 +56,3 @@ char alphabet_index(int index)
 	//if index is out of range, return space ' '.
 	return 'A';
 }
-
