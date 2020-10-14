@@ -23,6 +23,14 @@ int sum_of_even_numbers(int *array, int count)
 int max_of_numbers(int *array, int count)
 {
 	//TODO: return the maximum number from the array
+
+	int max = array[0];
+	
+for(int i = 0; i < count; i++){
+	if(array[i] > max)
+		max = array[i];
+}
+
 	return array[0];
 }
 
